@@ -1,0 +1,24 @@
+{
+    "name": "amri/lipsum-generator",
+    "description": "Generating random lorem ipsum",
+    "autoload": {
+        "psr-4": {
+            "Amri\\LipsumGenerator\\": "src/",
+            "DetikConnect\\": "/Applications/XAMPP/xamppfiles/htdocs/detik/cnbc-tech-conf-legacy/laracroft-lite/lib/DetikConnect"
+        }
+    },
+    "authors": [
+        {
+            "name": "amri.hidayatulloh",
+            "email": "amri.hidayatulloh@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amri\\LipsumGenerator\\LipsumGeneratorServiceProvider"
+            ]
+        }
+    }
+}
